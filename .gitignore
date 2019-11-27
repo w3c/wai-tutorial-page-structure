@@ -3,3 +3,7 @@ _site
 .jekyll-metadata
 .DS_Store
 Gemfile.lock
+.nosync
+
+# Local Netlify folder
+.netlify

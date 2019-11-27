@@ -1,7 +1,7 @@
 ---
 title: "Page Title"
-permalink: /link/to/page/
-ref: /link/to/page/
+permalink: /tutorials/page-structure/
+ref: /tutorials/page-structure/
 lang: en
 # translators: # Uncomment (remove #) for translations, one - name line per translator.
 # - name: Translator 1
@@ -10,7 +10,7 @@ lang: en
 # - name: Contributor 1
 # - name: Contributor 2
 github:
-  repository: wai-resource-template
+  repository: w3c/wai-tutorial-page-structure
   path: content/index.md
 footer: > # Text in footer in HTML
   <p> This is the text in the footer </p>

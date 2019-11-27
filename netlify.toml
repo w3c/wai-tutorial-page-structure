@@ -1,6 +1,6 @@
 [Settings]
 
-ID = "wai-resource-template"
+ID = "wai-tutorial-page-structure"
 
 [build]
 
@@ -9,4 +9,4 @@ publish = "_site"
 
 [[redirects]]
   from = "/"
-  to = "/link/to/page/"
+  to = "/tutorials/page-structure/"
