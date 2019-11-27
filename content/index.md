@@ -1,5 +1,5 @@
 ---
-title: "Page Title"
+title: "Page Structure Tutorial"
 permalink: /tutorials/page-structure/
 ref: /tutorials/page-structure/
 lang: en
@@ -14,58 +14,36 @@ github:
   path: content/index.md
 footer: > # Text in footer in HTML
   <p> This is the text in the footer </p>
+
+navigation:
+  next: /tutorials/page-structure/regions/
+
+wcag_success_criteria:
+  - 1.3.1
+  - 2.4.1
+  - 2.4.6
+  - 2.4.10
 ---
 
-{::nomarkdown}
-{% include box.html type="start" title="Summary" class="" %}
-{:/}
+Well-structured content allows more efficient navigation and processing. Use HTML and WAI-ARIA to improve navigation and orientation on web pages and in applications.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod architecto excepturi incidunt, odit modi quidem deserunt doloremque molestias saepe. Iste dolor non repellendus laudantium! Nihil velit mollitia voluptatem ullam libero.
+* **[Page Regions](/tutorials/page-structure/regions/):** Identify and mark up regions on web pages using HTML5 and WAI-ARIA roles.
 
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
+* **[Labeling Regions](/tutorials/page-structure/labels/):** Label regions to allow users to distinguish and access them.
 
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
+* **[Headings](/tutorials/page-structure/headings/):** Add headings and nest them logically to label sections of web pages according to their relationships and importance.
 
-- This will be replaced by an automatically generated TOC when using Markdown formatting.
-{:toc}
+* **[Content Structure](/tutorials/page-structure/content/):** Mark up the content on a page in a way that uses appropriate and meaningful elements.
 
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
+## Why is this important?
 
-## Heading Level 2
+Pages with well-structured content are essential for many web users, for example:
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. **Assumenda aut, praesentium (bold)** commodi _nesciunt natus (italic)_ ipsum fugiat [voluptates nisi ipsam voluptas (Link)](https://example.com) recusandae, a. [Sunt eos veritatis numquam (Internal link)]({{ "/permalink/to/page/" | relative_url }})!
-
-### Heading Level 3
-
-1. This is 
-2. a nice
-3. ordered
-4. list.
-
-#### Heading Level 4
-
-
-* And this is a
-* bullet list
-
-- You can use asterisks
-- or dashes. Whatever floats
-- your boat :-)
-
-##### Heading Level 5
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. Assumenda aut, praesentium commodi nesciunt natus ipsum fugiat voluptates nisi ipsam voluptas recusandae, a. Sunt eos veritatis numquam!
-
-## Heading Level 2
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. Assumenda aut, praesentium commodi nesciunt natus ipsum fugiat voluptates nisi ipsam voluptas recusandae, a. Sunt eos veritatis numquam!
-
-### Heading Level 3
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. Assumenda aut, praesentium commodi nesciunt natus ipsum fugiat voluptates nisi ipsam voluptas recusandae, a. Sunt eos veritatis numquam!
+* **People with cognitive and learning disabilities** can more easily find and prioritize content on the page.
+* **People using screen readers** can skip to the main content directly and navigate to sections that are important to them.
+* **Keyboard users** can browse pages and their sections more efficiently. Otherwise, users have to press the tab key multiple times to navigate through all links in each section.
+* **People using software that only shows the main content** of a web page, such as people with cognitive disabilities, will receive better results if the page structure is correctly marked up.
+* **People with visual impairments**, including people with low vision, have cues that provide orientation on the page and in the content.
+* **Mobile web users** often have access to a so-called “reader” or “reading” mode that will only show the main content of the page if it is correctly marked up.
+* **People using certain browser plugins** can use landmark roles to jump to specific sections on a page.
+* There are additional benefits to a good, accessible page structure, beyond those experienced by people with disabilities. As an example, search engines can use the data to better index the content of a page.

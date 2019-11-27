@@ -164,8 +164,18 @@
     different: true
     pages:
       - name: Page Structure
-        url: "https://www.w3.org/WAI/tutorials/page-structure/"
-        different: true
+        url: "/tutorials/page-structure/"
+        pages:
+          - name: Page Regions
+            url: "/tutorials/page-structure/regions/"
+          - name: Labeling Regions
+            url: "/tutorials/page-structure/labels/"
+          - name: Headings
+            url: "/tutorials/page-structure/headings/"
+          - name: Content Structure
+            url: "/tutorials/page-structure/content/"
+          - name: Full Example
+            url: "/tutorials/page-structure/example/"
       - name: Menus
         url: "https://www.w3.org/WAI/tutorials/menus/"
         different: true
